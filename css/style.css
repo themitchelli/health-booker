@@ -1,0 +1,78 @@
+input {
+  width: 300px;
+}
+
+#Form1Layout {
+	font-family: Verdana;
+	font-size: 10pt;
+	margin-top: 10px;
+	background-color:#f3f3f3;
+	border: solid 1px #a1a1a1;
+	padding:10px;
+	width: 390px;
+	height:115px;
+}
+#Form1Layout label{
+	text-align: right;
+	padding-right: 10px;
+	width: 80px;
+}
+#Form1Layout input {
+	width: 300px;
+}
+#Form1Layout label, #Form1Layout input {
+	display: block;
+	float: left;
+	margin-bottom: 10px;
+}
+
+.My_Button{
+	color: #FFF;
+	background: #0073ad;
+	border: 2px outset #0073as;
+	float: right;
+	cursor: pointer;
+	height:28px;
+}	
+
+body { 
+	border: 1px solid gray;
+	margin: 10px;
+	padding:10px;
+	background-color:#E9F7EF; 
+	color:black; 
+	font-family: Arial, Helvetica, sans-serif;
+	}
+	
+th {
+  background-color:#CACFD2 ;
+  color: black;
+}	
+
+tr:hover 
+	{background-color: #ABEBC6;}
+/* css for single elements should be numbered, unique and map to an ID  */	
+#MyTable { color:blue; }
+
+
+
+/* css for multiple elements should be a class */
+.SQLTable 
+/* colour gray #F8F9F9 */
+	{ color: black; background-color:#F8F9F9; }
+.bold
+	{ font-weight: bold;}
+.i 
+	{ font-style: italic;}
+.line 
+	{ text-decoration: line-through;}
+.overline 
+	{ text-decoration: overline;}
+.underline 
+	{ text-decoration: underline;}
+.auto
+	{ width:auto;}
+.width90
+	{ width:90%;}
+.width200
+	{ width:500px;}
